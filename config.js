@@ -29,12 +29,11 @@ config = {
     url: process.env.HEROKU_URL,
     mail: {
       transport: 'SMTP',
-      host: 'smtp.mandrillapp.com',
       options: {
-        service: 'Mandrill',
+        service: 'Gmail',
         auth: {
-          user: process.env.MANDRILL_USERNAME,
-          pass: process.env.MANDRILL_APIKEY
+          user: process.env.GMAIL_USERNAME,
+          pass: process.env.GMAIL_PASSWORD
         }
       }
     },

@@ -1,3 +1,9 @@
+(This fork is to use Gmail instead of Mandrill for SMTP.)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dai-shi/ghost-on-heroku)
+
+----
+
 # [Ghost](https://github.com/TryGhost/Ghost) on [Heroku](http://heroku.com)
 
 Ghost is a free, open, simple blogging platform. Visit the project's website at <http://ghost.org>, or read the docs on <http://support.ghost.org>.
